@@ -1,29 +1,28 @@
 
-const menuToggle = document.getElementById("menuToggle");
+const menuBtn = document.getElementById("menuBtn");
 const navLinks = document.getElementById("navLinks");
 
-// Mobile navigation
-menuToggle.addEventListener("click", () => {
-  const isOpen = navLinks.classList.toggle("active");
-  menuToggle.setAttribute("aria-expanded", String(isOpen));
+// Mobile menu
+menuBtn.addEventListener("click", () => {
+  const open = navLinks.classList.toggle("active");
+  menuBtn.setAttribute("aria-expanded", String(open));
+  menuBtn.setAttribute("aria-label", open ? "Close menu" : "Open menu");
 });
 
-// Close menu after clicking a navigation link
+// Close menu after selecting a section
 document.querySelectorAll(".nav-links a").forEach(link => {
   link.addEventListener("click", () => {
     navLinks.classList.remove("active");
-    menuToggle.setAttribute("aria-expanded", "false");
+    menuBtn.setAttribute("aria-expanded", "false");
+    menuBtn.setAttribute("aria-label", "Open menu");
   });
 });
 
-// Automatically update copyright year
-document.getElementById("year").textContent =
-  new Date().getFullYear();
+// Current copyright year
+document.getElementById("year").textContent = new Date().getFullYear();
 
 // WhatsApp membership enquiry
-const enquiryForm = document.getElementById("enquiryForm");
-
-enquiryForm.addEventListener("submit", function(event) {
+document.getElementById("enquiryForm").addEventListener("submit", function(event) {
   event.preventDefault();
 
   const name = document.getElementById("name").value.trim();
@@ -31,22 +30,23 @@ enquiryForm.addEventListener("submit", function(event) {
   const goal = document.getElementById("goal").value;
   const plan = document.getElementById("plan").value;
 
-  if (!/^[0-9]{10}$/.test(phone)) {
-    alert("Please enter a valid 10-digit phone number.");
+  if (!name || !goal || !plan || !/^[0-9]{10}$/.test(phone)) {
+    alert("Please fill in all fields and enter a valid 10-digit phone number.");
     return;
   }
 
-  const message =
-    `Hello Pro Fitness! I want to enquire about gym membership.\n\n` +
-    `Name: ${name}\n` +
-    `Phone: ${phone}\n` +
-    `Fitness Goal: ${goal}\n` +
-    `Membership: ${plan}\n\n` +
-    `Please share the membership fees and details.`;
+  const message = `Hello Pro Fitness! I would like to enquire about membership.
 
-  const whatsappURL =
+Name: ${name}
+Phone: ${phone}
+Fitness Goal: ${goal}
+Membership: ${plan}
+
+Please share the membership fees and details.`;
+
+  const whatsappLink =
     "https://wa.me/917975222680?text=" +
     encodeURIComponent(message);
 
-  window.open(whatsappURL, "_blank", "noopener");
+  window.open(whatsappLink, "_blank", "noopener,noreferrer");
 });
