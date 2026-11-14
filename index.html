@@ -3,400 +3,328 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#090909">
-  <meta name="description" content="Pro Fitness Unisex Gym, Rayagada. Build strength, confidence and a healthier lifestyle.">
-  <title>PRO FITNESS | The Power Club – Rayagada</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10100f">
+  <meta name="description" content="Pro Fitness Unisex Gym Rayagada. Strength training, fitness guidance and a better lifestyle.">
+  <title>Pro Fitness — Rayagada | Train Beyond Limits</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <div class="announcement">
-    <span>TRAIN HARD. STAY HUMBLE. GET STRONGER.</span>
-    <span class="announcement-right">RAYAGADA, ODISHA ↗</span>
+
+<div class="topline">
+  <span>PRO FITNESS / RAYAGADA, ODISHA</span>
+  <span>TRAIN BEYOND LIMITS <b>↗</b></span>
+</div>
+
+<header class="header">
+  <nav class="nav container">
+    <a class="brand" href="#home">
+      <span class="brand-icon">P<span>F</span></span>
+      <span class="brand-title">PRO FITNESS<small>UNISEX GYM</small></span>
+    </a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <div class="nav-links" id="navLinks">
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#training">TRAINING</a>
+      <a href="#tools">FITNESS TOOLS</a>
+      <a href="#gallery">GALLERY</a>
+      <a href="#contact" class="nav-cta">JOIN THE GYM ↗</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-photo"></div>
+    <div class="hero-gradient"></div>
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <div class="eyebrow"><i></i> YOUR FITNESS DESTINATION IN RAYAGADA</div>
+        <h1>MAKE<br>YOURSELF<br><span>STRONGER.</span></h1>
+        <p>Not just a workout. A mindset. Build strength, discover your potential and make every single rep count.</p>
+        <div class="hero-actions">
+          <a class="btn orange" href="#contact">START YOUR JOURNEY <b>↗</b></a>
+          <a class="btn transparent" href="#training">EXPLORE TRAINING</a>
+        </div>
+        <div class="hero-proof">
+          <div><strong>4.9<span>/5</span></strong><small>PUBLIC LISTING RATING</small></div>
+          <div class="proof-divider"></div>
+          <div><strong>53</strong><small>PUBLIC RATINGS</small></div>
+          <div class="proof-divider"></div>
+          <div><strong>UNISEX</strong><small>FITNESS FOR ALL</small></div>
+        </div>
+      </div>
+      <div class="hero-side-text">DISCIPLINE · STRENGTH · PROGRESS</div>
+      <div class="hero-scroll">SCROLL TO EXPLORE <span>↓</span></div>
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker">
+    <div class="ticker-track">
+      <span>TRAIN HARD</span> ✳ <span>STAY CONSISTENT</span> ✳
+      <span>BUILD STRENGTH</span> ✳ <span>BE YOUR BEST</span> ✳
+      <span>TRAIN HARD</span> ✳ <span>STAY CONSISTENT</span> ✳
+      <span>BUILD STRENGTH</span> ✳ <span>BE YOUR BEST</span> ✳
+    </div>
   </div>
 
-  <header class="header">
-    <nav class="nav container">
-      <a href="#home" class="brand">
-        <span class="brand-mark">P<span>F</span></span>
-        <span class="brand-name">PRO FITNESS<small>UNISEX FITNESS CLUB</small></span>
-      </a>
-
-      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-
-      <div class="nav-links" id="navLinks">
-        <a href="#home">HOME</a>
-        <a href="#about">ABOUT</a>
-        <a href="#programs">PROGRAMS</a>
-        <a href="#facilities">FACILITIES</a>
-        <a href="#gallery">GALLERY</a>
-        <a href="#contact" class="nav-join">JOIN THE CLUB ↗</a>
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container about-grid">
+      <div class="about-image-wrap">
+        <img class="about-image" src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1100&q=85" alt="Modern gym training area">
+        <div class="image-label"><b>PF.</b><span>THE POWER OF PROGRESS</span></div>
+        <div class="image-number">01 / ABOUT US</div>
       </div>
-    </nav>
-  </header>
-
-  <main>
-    <!-- HERO -->
-    <section class="hero" id="home">
-      <div class="hero-bg"></div>
-      <div class="hero-shade"></div>
-
-      <div class="container hero-inner">
-        <div class="hero-copy">
-          <div class="hero-label">
-            <span class="live-dot"></span>
-            RAYAGADA'S FITNESS DESTINATION
-          </div>
-
-          <h1>BUILT<br>NOT <span>BORN.</span></h1>
-
-          <p>
-            Your goals. Your discipline. Your transformation.
-            Welcome to Pro Fitness — where every rep takes
-            you one step closer to your strongest self.
-          </p>
-
-          <div class="hero-actions">
-            <a href="#contact" class="button button-orange">START YOUR JOURNEY <span>↗</span></a>
-            <a href="#programs" class="button button-glass">EXPLORE PROGRAMS</a>
-          </div>
+      <div class="about-copy">
+        <div class="eyebrow">01 — OUR PHILOSOPHY</div>
+        <h2>YOUR BODY.<br>YOUR <span>POWER.</span></h2>
+        <p>Welcome to Pro Fitness Unisex Gym, Rayagada. A place for people who want to move better, feel stronger and build a healthier lifestyle.</p>
+        <p>Whether you are stepping into a gym for the first time or working towards your next fitness milestone, consistency and proper guidance make the difference.</p>
+        <div class="value-list">
+          <div><b>01</b><span><strong>TRAIN WITH PURPOSE</strong><small>Focus on your individual fitness goals.</small></span></div>
+          <div><b>02</b><span><strong>GUIDED WORKOUTS</strong><small>Build confidence with training guidance.</small></span></div>
+          <div><b>03</b><span><strong>FITNESS FOR ALL</strong><small>A unisex gym for men and women.</small></span></div>
         </div>
-
-        <div class="hero-vertical">STRENGTH · DISCIPLINE · CONSISTENCY</div>
-
-        <div class="hero-bottom">
-          <span>01 / 04 — YOUR FITNESS ERA STARTS HERE</span>
-          <a href="#about">SCROLL TO EXPLORE ↓</a>
-        </div>
+        <a href="#contact" class="inline-link">DISCOVER PRO FITNESS ↗</a>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- STATS -->
-    <section class="stats">
-      <div class="container stats-grid">
-        <div class="stat">
-          <strong>UNISEX</strong>
-          <span>FITNESS FOR EVERYONE</span>
-        </div>
-        <div class="stat">
-          <strong>5 AM</strong>
-          <span>EARLY MORNING START</span>
-        </div>
-        <div class="stat">
-          <strong>10 PM</strong>
-          <span>EVENING CLOSING</span>
-        </div>
-        <div class="stat">
-          <strong>RAYAGADA</strong>
-          <span>ODISHA, INDIA</span>
-        </div>
+  <!-- TRAINING -->
+  <section class="section training" id="training">
+    <div class="container">
+      <div class="section-head">
+        <div><div class="eyebrow">02 — FIND YOUR TRAINING STYLE</div><h2>TRAIN FOR <span>MORE.</span></h2></div>
+        <p>Every goal starts with a decision. Make yours today.</p>
       </div>
-    </section>
+      <div class="training-grid">
+        <article class="training-card">
+          <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=900&q=85" alt="Strength training weights">
+          <div class="card-shade"></div><span class="card-no">01</span>
+          <div class="training-info"><small>BUILD YOUR FOUNDATION</small><h3>STRENGTH<br>TRAINING</h3><p>Build strength and work towards your muscle goals.</p></div>
+          <span class="card-arrow">↗</span>
+        </article>
+        <article class="training-card">
+          <img src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=900&q=85" alt="Cardio workout">
+          <div class="card-shade"></div><span class="card-no">02</span>
+          <div class="training-info"><small>MOVE WITH ENERGY</small><h3>CARDIO<br>FITNESS</h3><p>Improve endurance and support your overall fitness.</p></div>
+          <span class="card-arrow">↗</span>
+        </article>
+        <article class="training-card">
+          <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=900&q=85" alt="Personal fitness training">
+          <div class="card-shade"></div><span class="card-no">03</span>
+          <div class="training-info"><small>LEARN AND PROGRESS</small><h3>TRAINER<br>GUIDANCE</h3><p>Get support to make your workouts more effective.</p></div>
+          <span class="card-arrow">↗</span>
+        </article>
+      </div>
+    </div>
+  </section>
 
-    <!-- ABOUT -->
-    <section class="section about" id="about">
-      <div class="container about-grid">
-        <div class="about-visual">
-          <img
-            src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1100&q=85"
-            alt="Modern fitness club interior">
-          <div class="image-stamp">
-            <span>PF</span>
-            <small>THE POWER CLUB</small>
-          </div>
-          <div class="image-caption">YOUR SPACE. YOUR STRENGTH.</div>
+  <!-- FACILITIES -->
+  <section class="section facilities">
+    <div class="container">
+      <div class="section-head">
+        <div><div class="eyebrow">03 — THE GYM EXPERIENCE</div><h2>BUILT AROUND <span>YOU.</span></h2></div>
+        <p>Explore the features and amenities highlighted by gym visitors.</p>
+      </div>
+      <div class="facility-grid">
+        <div class="facility"><span>01</span><div><h3>STRENGTH EQUIPMENT</h3><p>Weight machines, dumbbells and workout equipment.</p></div><b>↗</b></div>
+        <div class="facility"><span>02</span><div><h3>TRAINER GUIDANCE</h3><p>Support and instruction for your workout journey.</p></div><b>↗</b></div>
+        <div class="facility"><span>03</span><div><h3>UNISEX ENVIRONMENT</h3><p>Fitness space welcoming men and women.</p></div><b>↗</b></div>
+        <div class="facility"><span>04</span><div><h3>AIR-CONDITIONED SPACE</h3><p>Comfortable workout environment.</p></div><b>↗</b></div>
+        <div class="facility"><span>05</span><div><h3>STEAM BATH</h3><p>Steam facility mentioned in customer feedback.</p></div><b>↗</b></div>
+        <div class="facility"><span>06</span><div><h3>CHANGING & WASHROOM</h3><p>Changing arrangements and washroom facilities.</p></div><b>↗</b></div>
+      </div>
+      <p class="fine-print">Amenities are described in public customer feedback. Please confirm current availability with the gym.</p>
+    </div>
+  </section>
+
+  <!-- FITNESS TOOLS -->
+  <section class="section tools" id="tools">
+    <div class="container">
+      <div class="section-head">
+        <div><div class="eyebrow">04 — YOUR PERSONAL FITNESS CORNER</div><h2>KNOW YOUR <span>NUMBERS.</span></h2></div>
+        <p>Try these simple tools as part of your fitness journey.</p>
+      </div>
+
+      <div class="tool-grid">
+        <div class="tool-card">
+          <div class="tool-icon">01 / BMI</div>
+          <h3>BMI CALCULATOR</h3>
+          <p>Enter your height and weight to calculate your BMI.</p>
+          <label for="height">HEIGHT (CM)</label>
+          <input id="height" type="number" min="50" max="250" placeholder="Example: 170">
+          <label for="weight">WEIGHT (KG)</label>
+          <input id="weight" type="number" min="10" max="400" placeholder="Example: 70">
+          <button class="btn orange full" id="bmiButton">CALCULATE BMI ↗</button>
+          <div class="tool-result" id="bmiResult" aria-live="polite">Your result will appear here.</div>
+          <small class="tool-disclaimer">BMI is a screening measure, not a medical diagnosis. It does not account for muscle mass or individual health factors.</small>
         </div>
 
-        <div class="about-content">
-          <div class="section-tag">01 — WHO WE ARE</div>
-          <h2>MORE THAN<br>A <span>WORKOUT.</span></h2>
-          <p>
-            Fitness is not just about the body. It is about
-            confidence, consistency and becoming a better
-            version of yourself.
-          </p>
-          <p>
-            Pro Fitness is a unisex gym in Rayagada built
-            around focused training, helpful guidance and
-            a motivating workout environment.
-          </p>
-          <div class="about-points">
-            <div><span>✦</span> TRAIN WITH PURPOSE</div>
-            <div><span>✦</span> GROW WITH DISCIPLINE</div>
-            <div><span>✦</span> STRONGER EVERY DAY</div>
+        <div class="tool-card timer-card">
+          <div class="tool-icon">02 / TIMER</div>
+          <h3>WORKOUT TIMER</h3>
+          <p>Use a simple countdown for your workout intervals.</p>
+          <div class="timer-display" id="timerDisplay">00:30</div>
+          <div class="timer-presets">
+            <button type="button" data-seconds="30">30 SEC</button>
+            <button type="button" data-seconds="60">60 SEC</button>
+            <button type="button" data-seconds="90">90 SEC</button>
           </div>
-          <a href="#contact" class="text-link">BECOME A MEMBER <span>↗</span></a>
+          <div class="timer-actions">
+            <button class="btn orange" id="startTimer">START</button>
+            <button class="btn outline" id="resetTimer">RESET</button>
+          </div>
+          <div class="tool-result" id="timerStatus" aria-live="polite">Ready for your next set.</div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- PROGRAMS -->
-    <section class="section programs" id="programs">
-      <div class="container">
-        <div class="section-heading">
-          <div class="section-tag">02 — TRAIN YOUR WAY</div>
-          <h2>FIND YOUR <span>POWER.</span></h2>
-          <p>Different goals. One place to work towards them.</p>
-        </div>
+  <!-- GALLERY -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <div class="section-head">
+        <div><div class="eyebrow">05 — INSIDE PRO FITNESS</div><h2>THE FITNESS <span>FEEL.</span></h2></div>
+        <a class="inline-link" target="_blank" rel="noopener" href="https://www.justdial.com/Rayagada/Pro-Fitness-Bank-Colony/9999P6856-6856-240320000331-R2Z3_BZDET/photos">VIEW LISTING PHOTOS ↗</a>
+      </div>
 
-        <div class="program-grid">
-          <article class="program-card">
-            <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=850&q=85" alt="Weight training">
-            <div class="program-number">01</div>
-            <div class="program-info">
-              <span>BUILD YOUR BASE</span>
-              <h3>STRENGTH<br>TRAINING</h3>
-              <p>Build strength and work towards your muscle-building goals.</p>
-            </div>
-            <div class="program-arrow">↗</div>
-          </article>
-
-          <article class="program-card">
-            <img src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=850&q=85" alt="Cardio fitness">
-            <div class="program-number">02</div>
-            <div class="program-info">
-              <span>MOVE BETTER</span>
-              <h3>CARDIO<br>FITNESS</h3>
-              <p>Improve endurance and work towards a healthier lifestyle.</p>
-            </div>
-            <div class="program-arrow">↗</div>
-          </article>
-
-          <article class="program-card">
-            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=850&q=85" alt="Personal fitness training">
-            <div class="program-number">03</div>
-            <div class="program-info">
-              <span>GUIDED PROGRESS</span>
-              <h3>PERSONAL<br>TRAINING</h3>
-              <p>Get guidance to train confidently and consistently.</p>
-            </div>
-            <div class="program-arrow">↗</div>
-          </article>
+      <div class="gallery-grid">
+        <a href="https://www.justdial.com/Rayagada/Pro-Fitness-Bank-Colony/9999P6856-6856-240320000331-R2Z3_BZDET/photos" target="_blank" rel="noopener" class="gallery-main">
+          <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1300&q=85" alt="Fitness gym interior">
+          <span>GYM ENVIRONMENT <b>↗</b></span>
+        </a>
+        <div class="gallery-side">
+          <div><img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=850&q=85" alt="Strength training"><span>STRENGTH</span></div>
+          <div><img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=850&q=85" alt="Gym equipment"><span>TRAINING</span></div>
         </div>
       </div>
-    </section>
+      <p class="fine-print">The photographs above are illustrative fitness images, not verified photographs of this gym. See the linked business gallery for actual listing photos.</p>
+    </div>
+  </section>
 
-    <!-- FEATURE BANNER -->
-    <section class="feature-banner">
-      <div class="feature-overlay"></div>
-      <div class="container feature-content">
-        <div class="section-tag">THE MINDSET</div>
-        <h2>NO EXCUSES.<br><span>JUST RESULTS.</span></h2>
-        <p>Show up for yourself. The rest follows.</p>
-        <a href="#contact" class="button button-orange">LET'S GET STARTED ↗</a>
+  <!-- MEMBERSHIP -->
+  <section class="section membership">
+    <div class="container membership-layout">
+      <div>
+        <div class="eyebrow">06 — YOUR NEXT MOVE</div>
+        <h2>YOUR GOALS.<br><span>YOUR MEMBERSHIP.</span></h2>
+        <p>Choose the membership duration that interests you. Contact the gym for current pricing and available offers.</p>
       </div>
-    </section>
-
-    <!-- FACILITIES -->
-    <section class="section facilities" id="facilities">
-      <div class="container">
-        <div class="section-heading">
-          <div class="section-tag">03 — THE EXPERIENCE</div>
-          <h2>MADE FOR <span>YOUR GOALS.</span></h2>
-          <p>Everything you need to stay focused on your fitness journey.</p>
-        </div>
-
-        <div class="facility-grid">
-          <div class="facility">
-            <span class="facility-icon">01</span>
-            <div><h3>MODERN EQUIPMENT</h3><p>Strength machines, free weights and workout equipment.</p></div>
-            <span class="facility-check">↗</span>
-          </div>
-          <div class="facility">
-            <span class="facility-icon">02</span>
-            <div><h3>TRAINER GUIDANCE</h3><p>Professional training guidance and workout support.</p></div>
-            <span class="facility-check">↗</span>
-          </div>
-          <div class="facility">
-            <span class="facility-icon">03</span>
-            <div><h3>UNISEX GYM</h3><p>A welcoming fitness space for men and women.</p></div>
-            <span class="facility-check">↗</span>
-          </div>
-          <div class="facility">
-            <span class="facility-icon">04</span>
-            <div><h3>AIR-CONDITIONED SPACE</h3><p>Comfortable workout environment.</p></div>
-            <span class="facility-check">↗</span>
-          </div>
-          <div class="facility">
-            <span class="facility-icon">05</span>
-            <div><h3>STEAM BATH</h3><p>Steam bath facility for post-workout relaxation.</p></div>
-            <span class="facility-check">↗</span>
-          </div>
-          <div class="facility">
-            <span class="facility-icon">06</span>
-            <div><h3>CHANGING FACILITIES</h3><p>Separate changing arrangements and washroom facilities.</p></div>
-            <span class="facility-check">↗</span>
-          </div>
-        </div>
-        <p class="facility-note">Facility information is based on public customer feedback. Confirm current availability with the gym.</p>
+      <div class="membership-list">
+        <a href="#contact"><span>01</span><b>MONTHLY MEMBERSHIP</b><span>↗</span></a>
+        <a href="#contact"><span>02</span><b>QUARTERLY MEMBERSHIP</b><span>↗</span></a>
+        <a href="#contact"><span>03</span><b>YEARLY MEMBERSHIP</b><span>↗</span></a>
+        <a href="#contact"><span>04</span><b>PERSONAL TRAINING ENQUIRY</b><span>↗</span></a>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- GALLERY -->
-    <section class="section gallery" id="gallery">
-      <div class="container">
-        <div class="section-heading">
-          <div class="section-tag">04 — THE GRIND</div>
-          <h2>FEEL THE <span>ENERGY.</span></h2>
-          <p>A glimpse into the world of fitness.</p>
-        </div>
-
-        <div class="gallery-grid">
-          <div class="gallery-large">
-            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=85" alt="Gym interior">
-            <span>TRAINING SPACE</span>
-          </div>
-          <div>
-            <div class="gallery-small">
-              <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=800&q=85" alt="Strength exercise">
-              <span>STRENGTH</span>
-            </div>
-            <div class="gallery-small">
-              <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=85" alt="Gym training">
-              <span>DEDICATION</span>
-            </div>
-          </div>
-        </div>
-        <p class="gallery-note">Sample fitness images. Replace with Pro Fitness's own photos before launch.</p>
-        <div class="actual-photos">
-          <a href="https://www.justdial.com/Rayagada/Pro-Fitness-Bank-Colony/9999P6856-6856-240320000331-R2Z3_BZDET/photos" target="_blank" rel="noopener">VIEW PRO FITNESS LISTING PHOTOS ↗</a>
-        </div>
+  <!-- REVIEWS -->
+  <section class="section reviews">
+    <div class="container">
+      <div class="section-head">
+        <div><div class="eyebrow">07 — COMMUNITY FEEDBACK</div><h2>LOCAL FITNESS.<br><span>STRONG REPUTATION.</span></h2></div>
+        <div class="rating-summary"><strong>4.9</strong><span>★★★★★</span><small>53 public ratings</small></div>
       </div>
-    </section>
-
-    <!-- MEMBERSHIP -->
-    <section class="section membership" id="membership">
-      <div class="container membership-wrap">
-        <div>
-          <div class="section-tag">05 — YOUR NEXT CHAPTER</div>
-          <h2>INVEST IN<br><span>YOURSELF.</span></h2>
-          <p>Start with a conversation. Discover the membership that suits your fitness goals.</p>
-        </div>
-
-        <div class="membership-options">
-          <a href="#contact" class="membership-option">
-            <span>01</span><strong>MONTHLY MEMBERSHIP</strong><span>↗</span>
-          </a>
-          <a href="#contact" class="membership-option">
-            <span>02</span><strong>QUARTERLY MEMBERSHIP</strong><span>↗</span>
-          </a>
-          <a href="#contact" class="membership-option">
-            <span>03</span><strong>YEARLY MEMBERSHIP</strong><span>↗</span>
-          </a>
-          <p>Contact the gym for current fees, offers and membership conditions.</p>
-        </div>
+      <div class="review-grid">
+        <article><span>★★★★★</span><h3>TRAINER GUIDANCE</h3><p>Public customer feedback frequently praises the trainers' knowledge and helpful instruction.</p><small>THEME FROM CUSTOMER REVIEWS</small></article>
+        <article><span>★★★★★</span><h3>CLEAN & COMFORTABLE</h3><p>Visitors mention cleanliness, well-maintained equipment and a comfortable workout environment.</p><small>THEME FROM CUSTOMER REVIEWS</small></article>
+        <article><span>★★★★★</span><h3>UNISEX FITNESS</h3><p>Customer feedback describes Pro Fitness as a welcoming gym for men and women.</p><small>THEME FROM CUSTOMER REVIEWS</small></article>
       </div>
-    </section>
+      <a class="inline-link" target="_blank" rel="noopener" href="https://www.justdial.com/Rayagada/Pro-Fitness-Bank-Colony/9999P6856-6856-240320000331-R2Z3_BZDET">READ PUBLIC REVIEWS ↗</a>
+    </div>
+  </section>
 
-    <!-- CONTACT -->
-    <section class="section contact" id="contact">
-      <div class="container">
-        <div class="section-heading">
-          <div class="section-tag">06 — TAKE THE FIRST STEP</div>
-          <h2>LET'S <span>CONNECT.</span></h2>
-          <p>Your fitness journey could start with one message.</p>
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-head">
+        <div><div class="eyebrow">08 — LET'S GET STARTED</div><h2>MEET US AT <span>PRO FITNESS.</span></h2></div>
+        <p>Have a question about joining? Send an enquiry or visit our gym.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div><small>FIND US</small><h3>BANK COLONY,<br>RAYAGADA.</h3><p>New Colony, Bank Colony,<br>Rayagada, Odisha 765001, India</p></div>
+          <div><small>CALL THE GYM</small><h3><a href="tel:+917975222680">+91 79752 22680</a></h3></div>
+          <div><small>OPENING HOURS</small><h3>05:00 AM — 10:00 PM</h3><p>Monday to Saturday<br>Sunday: Closed (as listed)</p></div>
+          <a class="btn outline" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Pro+Fitness+Bank+Colony+Rayagada">GET DIRECTIONS ↗</a>
         </div>
 
-        <div class="contact-grid">
-          <div class="contact-info">
-            <div class="contact-box">
-              <span>VISIT OUR GYM</span>
-              <h3>PRO FITNESS<br>RAYAGADA</h3>
-              <p>Bank Colony, New Colony,<br>Rayagada, Odisha – 765001</p>
-              <a href="https://www.google.com/maps/search/?api=1&query=Pro+Fitness+Bank+Colony+Rayagada" target="_blank" rel="noopener" class="text-link">OPEN GOOGLE MAPS ↗</a>
-            </div>
-
-            <div class="contact-box">
-              <span>GIVE US A CALL</span>
-              <h3>+91 79752 22680</h3>
-              <a href="tel:+917975222680" class="text-link">CALL THE GYM ↗</a>
-            </div>
-
-            <div class="contact-box">
-              <span>OPENING HOURS</span>
-              <h3>05:00 AM – 10:00 PM</h3>
-              <p>Monday to Saturday<br>Sunday: Closed</p>
-            </div>
-          </div>
-
-          <form class="enquiry-form" id="enquiryForm">
-            <div class="form-top">
-              <span>MEMBERSHIP ENQUIRY</span>
-              <span class="live-dot"></span>
-            </div>
-            <h3>LET'S TALK<br>FITNESS.</h3>
-
-            <label for="name">YOUR NAME</label>
-            <input type="text" id="name" placeholder="Enter your full name" required>
-
-            <label for="phone">PHONE NUMBER</label>
-            <input type="tel" id="phone" placeholder="10-digit mobile number" pattern="[0-9]{10}" maxlength="10" required>
-
-            <label for="goal">YOUR FITNESS GOAL</label>
-            <select id="goal" required>
-              <option value="">Select your goal</option>
-              <option>Weight loss</option>
-              <option>Muscle building</option>
-              <option>Strength training</option>
-              <option>General fitness</option>
-              <option>Personal training</option>
-            </select>
-
-            <label for="plan">MEMBERSHIP INTEREST</label>
-            <select id="plan" required>
-              <option value="">Choose membership</option>
-              <option>Monthly</option>
-              <option>Quarterly</option>
-              <option>Yearly</option>
-              <option>Need guidance</option>
-            </select>
-
-            <button type="submit" class="button button-orange form-button">
-              SEND WHATSAPP ENQUIRY ↗
-            </button>
-            <small>We'll prepare your enquiry in WhatsApp.</small>
-          </form>
-        </div>
+        <form class="contact-form" id="enquiryForm">
+          <span class="form-eyebrow">MEMBERSHIP ENQUIRY</span>
+          <h3>LET'S TALK<br>FITNESS.</h3>
+          <label for="customerName">YOUR NAME</label>
+          <input id="customerName" type="text" placeholder="Enter your name" required>
+          <label for="customerPhone">YOUR PHONE NUMBER</label>
+          <input id="customerPhone" type="tel" inputmode="numeric" maxlength="10" pattern="[0-9]{10}" placeholder="10-digit mobile number" required>
+          <label for="customerGoal">FITNESS GOAL</label>
+          <select id="customerGoal" required>
+            <option value="">Select your goal</option>
+            <option>Weight management</option>
+            <option>Muscle building</option>
+            <option>Strength training</option>
+            <option>General fitness</option>
+            <option>Personal training</option>
+          </select>
+          <label for="customerPlan">MEMBERSHIP</label>
+          <select id="customerPlan" required>
+            <option value="">Select duration</option>
+            <option>Monthly</option>
+            <option>Quarterly</option>
+            <option>Yearly</option>
+            <option>Need guidance</option>
+          </select>
+          <button type="submit" class="btn orange full">SEND ENQUIRY ON WHATSAPP ↗</button>
+          <small>Your details will be placed in a WhatsApp message. Nothing is stored on this website.</small>
+        </form>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- FINAL CTA -->
-    <section class="last-cta">
-      <div class="container">
-        <span>THE ONLY BAD WORKOUT IS THE ONE THAT DIDN'T HAPPEN.</span>
-        <h2>MAKE YOUR<br><span>MOVE.</span></h2>
-        <a href="#contact" class="button button-orange">JOIN PRO FITNESS ↗</a>
-      </div>
-    </section>
-  </main>
+  <!-- MAP -->
+  <section class="map-section">
+    <iframe
+      title="Pro Fitness Rayagada location map"
+      src="https://maps.google.com/maps?q=Pro%20Fitness%20Bank%20Colony%20Rayagada%20Odisha&t=&z=15&ie=UTF8&iwloc=&output=embed"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </section>
 
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
-      <div class="footer-top">
-        <a href="#home" class="brand">
-          <span class="brand-mark">P<span>F</span></span>
-          <span class="brand-name">PRO FITNESS<small>UNISEX FITNESS CLUB</small></span>
+      <div class="footer-main">
+        <a class="brand" href="#home">
+          <span class="brand-icon">P<span>F</span></span>
+          <span class="brand-title">PRO FITNESS<small>UNISEX GYM</small></span>
         </a>
-        <p>BUILT WITH DISCIPLINE.<br>DRIVEN BY STRENGTH.</p>
+        <p>STRONGER EVERY DAY.<br>ONE REP AT A TIME.</p>
+        <a class="footer-call" href="tel:+917975222680">CALL US ↗</a>
       </div>
       <div class="footer-bottom">
-        <span>© <span id="year"></span> PRO FITNESS RAYAGADA.</span>
+        <span>© <span id="year"></span> PRO FITNESS RAYAGADA</span>
         <a href="#home">BACK TO TOP ↑</a>
       </div>
     </div>
   </footer>
 
-  <a href="https://wa.me/917975222680" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
-    <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M20 11.5a8 8 0 0 1-11.8 7L4 20l1.5-4.1A8 8 0 1 1 20 11.5Z" fill="none" stroke="currentColor" stroke-width="1.7"/>
-      <path d="M9 8.5c.4 2.3 2.1 4 4.5 4.7l1.1-1.1 1.8.8c.3.1.4.4.3.7-.4 1.2-1.5 1.7-2.7 1.4-3.5-.9-5.6-3-6.5-6.5-.3-1.2.2-2.3 1.4-2.7.3-.1.6 0 .7.3l.8 1.8Z" fill="currentColor"/>
+  <a class="whatsapp-float" href="https://wa.me/917975222680" target="_blank" rel="noopener" aria-label="Contact on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+      <path d="M20 11.5a8 8 0 0 1-11.8 7L4 20l1.5-4.1A8 8 0 1 1 20 11.5Z"/>
+      <path d="M9 8.5c.4 2.3 2.1 4 4.5 4.7l1.1-1.1 1.8.8"/>
     </svg>
   </a>
 
