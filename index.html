@@ -1,378 +1,454 @@
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#168447">
-  <meta name="description" content="Pro Fitness is a unisex gym in Bank Colony, Rayagada, Odisha.">
-  <title>PRO FITNESS — Unisex Gym in Rayagada</title>
+  <meta name="description" content="Pro Fitness Rayagada — Unisex Gym. Build strength, improve fitness and start your journey.">
+  <title>Pro Fitness | Unisex Gym Rayagada</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <div class="topline">
-    <span>RAYAGADA'S FITNESS COMMUNITY</span>
-    <span>YOUR GOALS. YOUR GRIND. YOUR RESULTS.</span>
+
+  <div class="announcement">
+    <span>PRO FITNESS · UNISEX GYM · RAYAGADA</span>
+    <a href="https://wa.me/917975222680?text=Hello%20Pro%20Fitness%2C%20I%20want%20to%20know%20about%20membership.">ENQUIRE NOW ↗</a>
   </div>
 
-  <header class="header" id="top">
-    <a class="brand" href="#top" aria-label="Pro Fitness home">
-      <span class="brand-mark">P<span>F</span></span>
-      <span>PRO <b>FITNESS</b><small>UNISEX GYM · RAYAGADA</small></span>
+  <header class="site-header">
+    <a class="brand" href="#home">
+      <span class="brand-logo">PF</span>
+      <span class="brand-name">PRO <b>FITNESS</b><small>UNISEX GYM · RAYAGADA</small></span>
     </a>
 
-    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
-      <i></i><i></i><i></i>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
     </button>
 
-    <nav class="nav">
+    <nav class="main-nav" id="mainNav">
       <a href="#about">About</a>
       <a href="#programs">Programs</a>
-      <a href="#facility">The Gym</a>
+      <a href="#membership">Membership</a>
+      <a href="#tools">Fitness Tools</a>
       <a href="#gallery">Gallery</a>
-      <a href="#reviews">Reviews</a>
       <a href="#contact">Contact</a>
-      <a class="nav-cta" href="#join">JOIN NOW <span>↗</span></a>
+      <a class="nav-button" href="#booking">FREE VISIT ↗</a>
     </nav>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="hero-bg"></div>
-      <div class="hero-shade"></div>
-
-      <div class="hero-content wrap">
-        <p class="eyebrow"><span></span> ESTABLISH YOUR STRONGER SELF</p>
-
-        <h1>BUILT BY<br><em>DISCIPLINE.</em><br>DEFINED BY YOU.</h1>
-
-        <p class="hero-copy">
-          A stronger body starts with one decision. Find your rhythm,
-          train with purpose and make every rep count at Pro Fitness, Rayagada.
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-image"></div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow light-eyebrow"><span></span> YOUR FITNESS. YOUR JOURNEY.</p>
+        <h1>BUILD YOUR<br><em>BEST SELF.</em></h1>
+        <p class="hero-description">
+          Stronger habits. Better fitness. More confidence.
+          Start your journey with Pro Fitness, Rayagada.
         </p>
-
         <div class="hero-actions">
-          <a class="btn btn-orange" href="#join">START YOUR JOURNEY <b>↗</b></a>
-          <a class="text-link" href="#programs">EXPLORE PROGRAMS <span>↓</span></a>
+          <a class="button button-green" href="#booking">BOOK A FREE VISIT <span>↗</span></a>
+          <a class="button button-glass" href="#programs">EXPLORE PROGRAMS ↓</a>
         </div>
-
-        <div class="hero-note">
-          <span class="pulse"></span>
-          UNISEX FITNESS · BANK COLONY, RAYAGADA
+        <div class="hero-bottom">
+          <span><i class="live-dot"></i> UNISEX FITNESS COMMUNITY</span>
+          <span>BANK COLONY · RAYAGADA</span>
         </div>
       </div>
-
-      <div class="hero-side">TRAIN HARDER <b>·</b> LIVE STRONGER <b>·</b> REPEAT</div>
+      <div class="hero-vertical">TRAIN · IMPROVE · REPEAT</div>
     </section>
 
     <div class="ticker">
-      <div class="ticker-track">
-        <span>STRENGTH</span> ✳
-        <span>CONSISTENCY</span> ✳
-        <span>CONFIDENCE</span> ✳
-        <span>PROGRESS</span> ✳
-        <span>STRENGTH</span> ✳
-        <span>CONSISTENCY</span> ✳
-        <span>CONFIDENCE</span> ✳
-        <span>PROGRESS</span> ✳
+      <div class="ticker-content">
+        <span>STRENGTH</span> ✳ <span>DISCIPLINE</span> ✳
+        <span>CONSISTENCY</span> ✳ <span>CONFIDENCE</span> ✳
+        <span>PROGRESS</span> ✳ <span>STRENGTH</span> ✳
+        <span>DISCIPLINE</span> ✳ <span>CONSISTENCY</span> ✳
+        <span>CONFIDENCE</span> ✳ <span>PROGRESS</span> ✳
       </div>
     </div>
 
-    <section class="intro section wrap" id="about">
-      <div class="section-kicker">01 / THE PRO FITNESS MINDSET</div>
-
-      <div class="intro-grid">
-        <h2>MORE THAN<br>A WORKOUT.<br><em>A WAY OF LIFE.</em></h2>
-
-        <div class="intro-text">
-          <p class="lead">Your fitness journey is personal. Your training space should help you own it.</p>
-
-          <p>
-            Pro Fitness is a unisex gym in Rayagada for people who want
-            to build strength, improve fitness and stay consistent.
-            Whether you're taking your first step or pushing toward
-            a new goal, show up and put in the work.
-          </p>
-
-          <a class="line-link" href="#contact">COME MEET THE TEAM <span>↗</span></a>
-        </div>
-      </div>
-
-      <div class="stats">
-        <div><strong>4.9<span>/5</span></strong><small>PUBLIC LISTING RATING</small></div>
-        <div><strong>53<span>+</span></strong><small>PUBLIC REVIEWS*</small></div>
-        <div><strong>UNISEX</strong><small>FITNESS FOR EVERYONE</small></div>
-        <div><strong>05<span>AM</span></strong><small>LISTED OPENING TIME</small></div>
-      </div>
-
-      <p class="fineprint">
-        *Public listing figures; ratings and review counts may change.
-        Confirm current details directly with the gym.
-      </p>
-    </section>
-
-    <section class="transform section">
-      <div class="transform-image"></div>
-      <div class="transform-overlay"></div>
-
-      <div class="transform-content wrap">
-        <div class="section-kicker">02 / PROGRESS IS PERSONAL</div>
-        <h2>SHOW UP.<br><em>LEVEL UP.</em></h2>
-        <p>
-          Small steps. Strong habits. Real effort. Your transformation
-          begins the moment you decide to be consistent.
-        </p>
-        <a class="btn btn-outline" href="#join">TAKE THE FIRST STEP <b>↗</b></a>
-      </div>
-
-      <div class="transform-stamp">NO SHORTCUTS<br>JUST WORK.</div>
-    </section>
-
-    <section class="section wrap programs" id="programs">
-      <div class="section-kicker">03 / FIND YOUR TRAINING STYLE</div>
-
-      <div class="section-heading">
-        <h2>TRAIN WITH<br><em>PURPOSE.</em></h2>
-        <p>
-          Choose a direction. Build a routine. Keep moving forward.
-          Ask the Pro Fitness team which training options are currently available.
-        </p>
-      </div>
-
-      <div class="program-grid">
-        <article class="program-card">
-          <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=900&q=85" alt="Strength training gym equipment">
-          <div>
-            <small>01 / BUILD</small>
-            <h3>STRENGTH<br>TRAINING</h3>
-            <p>Build a stronger foundation through focused resistance training.</p>
-          </div>
-        </article>
-
-        <article class="program-card">
-          <img src="https://images.unsplash.com/photo-1534258936925-c58bed479fcb?auto=format&fit=crop&w=900&q=85" alt="Cardio workout">
-          <div>
-            <small>02 / CONDITION</small>
-            <h3>CARDIO &<br>ENDURANCE</h3>
-            <p>Work on stamina, energy and everyday fitness.</p>
-          </div>
-        </article>
-
-        <article class="program-card">
-          <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=85" alt="Personal fitness training">
-          <div>
-            <small>03 / IMPROVE</small>
-            <h3>GUIDED<br>FITNESS</h3>
-            <p>Get guidance on training safely and progressing consistently.</p>
-          </div>
-        </article>
-      </div>
-
-      <p class="fineprint">
-        Program descriptions are general fitness categories, not a confirmation
-        of a specific class timetable. Contact the gym to confirm current services.
-      </p>
-    </section>
-
-    <section class="studio section" id="facility">
-      <div class="studio-photo"></div>
-
-      <div class="studio-content">
-        <div class="section-kicker">04 / YOUR TRAINING SPACE</div>
-        <h2>MADE FOR<br><em>THE GRIND.</em></h2>
-
-        <p>
-          A place to focus, put in the reps and keep your fitness goals moving.
-          Visit Pro Fitness to see the equipment and training environment in person.
-        </p>
-
-        <ul class="feature-list">
-          <li><span>01</span> Unisex gym environment</li>
-          <li><span>02</span> Strength and general fitness</li>
-          <li><span>03</span> Guidance for your fitness journey</li>
-          <li><span>04</span> A motivating local community</li>
-        </ul>
-
-        <a class="line-link" href="https://www.justdial.com/Rayagada/Pro-Fitness-Bank-Colony/9999P6856-6856-240320000331-R2Z3_BZDET/photos" target="_blank" rel="noopener">
-          VIEW LISTED GYM PHOTOS ↗
-        </a>
-      </div>
-    </section>
-
-    <section class="section wrap gallery" id="gallery">
-      <div class="section-kicker">05 / INSIDE PRO FITNESS</div>
-
-      <div class="section-heading">
-        <h2>THE WORK.<br><em>THE ENERGY.</em></h2>
-        <p>
-          Public gym listing photos and a visual preview of the training atmosphere.
-          Stock images are illustrative and are not represented as photos of this Rayagada gym.
-        </p>
-      </div>
-
-      <div class="gallery-grid">
-        <a class="gallery-main" href="https://www.justdial.com/Rayagada/Pro-Fitness-Bank-Colony/9999P6856-6856-240320000331-R2Z3_BZDET/photos" target="_blank" rel="noopener">
-          <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=85" alt="Illustrative gym interior">
-          <span>OPEN REAL PRO FITNESS PHOTO GALLERY ↗</span>
-        </a>
-
-        <div class="gallery-small">
-          <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=85" alt="Illustrative strength training">
-          <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=800&q=85" alt="Illustrative gym equipment">
-        </div>
-      </div>
-
-      <div class="video-callout">
+    <!-- ABOUT -->
+    <section class="section container" id="about">
+      <div class="section-label">01 / ABOUT PRO FITNESS</div>
+      <div class="split-heading">
+        <h2>MORE THAN A<br><em>WORKOUT.</em></h2>
         <div>
-          <small>WATCH / VIDEO</small>
-          <h3>SEE THE<br><em>GYM IN ACTION.</em></h3>
-          <p>Find public videos and updates for Pro Fitness Rayagada.</p>
+          <p class="large-copy">Your goals deserve commitment. Your journey deserves a place to begin.</p>
+          <p class="muted-copy">
+            Pro Fitness is a unisex gym in Rayagada for people who want to
+            build strength, improve fitness and stay consistent. Whether
+            you're starting out or working toward a new goal, take the first step.
+          </p>
+          <a class="text-link" href="#contact">MEET PRO FITNESS ↗</a>
         </div>
-
-        <a class="play-button" href="https://www.youtube.com/results?search_query=Pro+Fitness+Rayagada+gym" target="_blank" rel="noopener" aria-label="Search Pro Fitness Rayagada videos">▶</a>
       </div>
+
+      <div class="stats-grid">
+        <div class="stat"><strong>4.9<span>/5</span></strong><small>PUBLIC LISTING RATING</small></div>
+        <div class="stat"><strong>53<span>+</span></strong><small>PUBLIC REVIEWS*</small></div>
+        <div class="stat"><strong>UNISEX</strong><small>FITNESS FOR EVERYONE</small></div>
+        <div class="stat"><strong>5<span>AM</span></strong><small>LISTED OPENING TIME</small></div>
+      </div>
+      <p class="tiny-note">*Public listing snapshot; figures may change. Check the current listing for updates.</p>
     </section>
 
-    <section class="section review-section" id="reviews">
-      <div class="wrap">
-        <div class="section-kicker">06 / LOCAL LOVE</div>
-
+    <!-- PROGRAMS -->
+    <section class="section soft-section" id="programs">
+      <div class="container">
+        <div class="section-label">02 / TRAIN YOUR WAY</div>
         <div class="section-heading">
-          <h2>TRUST BUILT<br><em>REP BY REP.</em></h2>
-          <p>
-            Public listing snapshot: Pro Fitness is rated 4.9/5 from 53 reviews.
-            Read the latest feedback on the listing.
-          </p>
+          <h2>FIND YOUR<br><em>FOCUS.</em></h2>
+          <p>Choose a goal and build a routine that keeps you moving forward.</p>
         </div>
 
-        <div class="review-panel">
-          <div class="review-score">
-            4.9<span>/5</span>
-            <small>PUBLIC LISTING RATING</small>
-          </div>
+        <div class="card-grid three">
+          <article class="image-card">
+            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=900&q=85" alt="Gym strength equipment">
+            <div class="image-card-content">
+              <span>01 / BUILD</span>
+              <h3>STRENGTH<br>TRAINING</h3>
+              <p>Build strength through focused resistance training.</p>
+              <a href="#booking">ASK ABOUT TRAINING ↗</a>
+            </div>
+          </article>
+          <article class="image-card">
+            <img src="https://images.unsplash.com/photo-1534258936925-c58bed479fcb?auto=format&fit=crop&w=900&q=85" alt="Cardio fitness training">
+            <div class="image-card-content">
+              <span>02 / CONDITION</span>
+              <h3>CARDIO &<br>ENDURANCE</h3>
+              <p>Work on stamina, energy and general fitness.</p>
+              <a href="#booking">ASK ABOUT TRAINING ↗</a>
+            </div>
+          </article>
+          <article class="image-card">
+            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=85" alt="Fitness training session">
+            <div class="image-card-content">
+              <span>03 / IMPROVE</span>
+              <h3>GUIDED<br>FITNESS</h3>
+              <p>Build a consistent routine with appropriate guidance.</p>
+              <a href="#booking">ASK ABOUT TRAINING ↗</a>
+            </div>
+          </article>
+        </div>
+        <p class="tiny-note">These are general training categories. Contact the gym to confirm current classes and services.</p>
+      </div>
+    </section>
 
+    <!-- TRANSFORMATION -->
+    <section class="transformation">
+      <div class="transformation-bg"></div>
+      <div class="transformation-shade"></div>
+      <div class="container transformation-content">
+        <div class="section-label light-label">03 / YOUR PROGRESS STARTS HERE</div>
+        <h2>SHOW UP.<br><em>LEVEL UP.</em></h2>
+        <p>Progress comes from consistency. Make today the day you start.</p>
+        <a href="#booking" class="button button-green">START YOUR JOURNEY ↗</a>
+      </div>
+      <div class="round-stamp">NO SHORTCUTS<br>JUST CONSISTENCY</div>
+    </section>
+
+    <!-- MEMBERSHIP -->
+    <section class="section container" id="membership">
+      <div class="section-label">04 / MEMBERSHIP</div>
+      <div class="section-heading">
+        <h2>MAKE ROOM<br>FOR <em>GROWTH.</em></h2>
+        <p>Choose a membership duration and contact the gym for current pricing and availability.</p>
+      </div>
+
+      <div class="membership-grid">
+        <article class="membership-card">
+          <span class="plan-number">01</span>
+          <h3>MONTHLY</h3>
+          <p>A flexible way to begin your fitness journey.</p>
+          <ul><li>Gym access details on enquiry</li><li>Ask about current facilities</li><li>Ask about available timings</li></ul>
+          <button class="button button-outline plan-button" data-plan="Monthly membership">ENQUIRE NOW ↗</button>
+        </article>
+        <article class="membership-card featured-plan">
+          <span class="plan-tag">POPULAR DURATION</span>
+          <span class="plan-number">02</span>
+          <h3>QUARTERLY</h3>
+          <p>Give your goals more time and consistency.</p>
+          <ul><li>Ask about membership benefits</li><li>Confirm available facilities</li><li>Ask about current offers</li></ul>
+          <button class="button button-green plan-button" data-plan="Quarterly membership">ENQUIRE NOW ↗</button>
+        </article>
+        <article class="membership-card">
+          <span class="plan-number">03</span>
+          <h3>YEARLY</h3>
+          <p>Make fitness a long-term part of your routine.</p>
+          <ul><li>Ask about annual membership</li><li>Confirm terms and conditions</li><li>Ask about current offers</li></ul>
+          <button class="button button-outline plan-button" data-plan="Yearly membership">ENQUIRE NOW ↗</button>
+        </article>
+      </div>
+      <p class="tiny-note">No prices or discounts are invented on this website. Confirm all membership rates directly with Pro Fitness.</p>
+    </section>
+
+    <!-- TRAINERS -->
+    <section class="section soft-section" id="trainers">
+      <div class="container">
+        <div class="section-label">05 / TRAINING SUPPORT</div>
+        <div class="section-heading">
+          <h2>GUIDANCE FOR<br><em>YOUR GOALS.</em></h2>
+          <p>Speak with the gym team about training guidance and personal training availability.</p>
+        </div>
+        <div class="trainer-panel">
+          <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?auto=format&fit=crop&w=1000&q=85" alt="Fitness training environment">
           <div>
-            <div class="stars">★★★★★</div>
-            <h3>YOUR EXPERIENCE<br>MATTERS.</h3>
-            <p>Visit the public listing to read member feedback and share your own experience.</p>
-            <a class="line-link" href="https://www.google.com/search?q=Pro+Fitness+Rayagada+reviews" target="_blank" rel="noopener">READ PUBLIC REVIEWS ↗</a>
+            <span class="green-overline">YOUR FITNESS JOURNEY</span>
+            <h3>THE RIGHT<br>SUPPORT MAKES<br>A DIFFERENCE.</h3>
+            <p>Ask about trainer availability, training guidance and options that suit your goals.</p>
+            <a class="text-link" href="#booking">ENQUIRE ABOUT PERSONAL TRAINING ↗</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section wrap join" id="join">
-      <div class="section-kicker">07 / YOUR NEXT REP STARTS HERE</div>
+    <!-- FACILITIES -->
+    <section class="section container" id="facilities">
+      <div class="section-label">06 / THE TRAINING SPACE</div>
+      <div class="section-heading">
+        <h2>FOCUS ON<br><em>YOURSELF.</em></h2>
+        <p>Visit the gym to explore its equipment, environment and currently available facilities.</p>
+      </div>
+      <div class="facility-grid">
+        <div class="facility-item"><span>01</span><h3>STRENGTH AREA</h3><p>Ask about available strength equipment.</p></div>
+        <div class="facility-item"><span>02</span><h3>FITNESS SPACE</h3><p>Explore the training environment in person.</p></div>
+        <div class="facility-item"><span>03</span><h3>TRAINING GUIDANCE</h3><p>Ask about support for your fitness goals.</p></div>
+        <div class="facility-item"><span>04</span><h3>UNISEX GYM</h3><p>A fitness space listed for all genders.</p></div>
+      </div>
+    </section>
 
-      <div class="join-grid">
-        <h2>READY TO<br><em>GET STRONGER?</em></h2>
+    <!-- FITNESS TOOLS -->
+    <section class="section tools-section" id="tools">
+      <div class="container">
+        <div class="section-label">07 / YOUR FITNESS TOOLKIT</div>
+        <div class="section-heading">
+          <h2>KNOW YOUR<br><em>NUMBERS.</em></h2>
+          <p>Simple tools to help you understand and plan your fitness routine. Results are estimates, not medical advice.</p>
+        </div>
 
-        <div>
-          <p class="lead">Tell us your goal. We'll help you take the next step.</p>
-          <p>
-            Ask about membership options, current training facilities,
-            available timings and a visit to the gym. No membership prices
-            are published here because they need to be confirmed by Pro Fitness.
-          </p>
+        <div class="tools-grid">
+          <div class="tool-card">
+            <div class="tool-heading"><span>TOOL 01</span><h3>BMI CALCULATOR</h3></div>
+            <label for="bmiHeight">Height (cm)</label>
+            <input id="bmiHeight" type="number" min="80" max="250" placeholder="e.g. 175">
+            <label for="bmiWeight">Weight (kg)</label>
+            <input id="bmiWeight" type="number" min="20" max="350" placeholder="e.g. 70">
+            <button class="button button-green full-button" id="bmiButton">CALCULATE BMI</button>
+            <div class="tool-result" id="bmiResult" aria-live="polite">Your result will appear here.</div>
+          </div>
 
-          <a class="btn btn-orange" href="https://wa.me/917975222680?text=Hello%20Pro%20Fitness%2C%20I%20would%20like%20to%20know%20about%20membership." target="_blank" rel="noopener">
-            ENQUIRE ON WHATSAPP ↗
+          <div class="tool-card">
+            <div class="tool-heading"><span>TOOL 02</span><h3>DAILY CALORIE ESTIMATE</h3></div>
+            <label for="calAge">Age</label>
+            <input id="calAge" type="number" min="15" max="100" placeholder="e.g. 25">
+            <label for="calSex">Calculation setting</label>
+            <select id="calSex">
+              <option value="male">Male equation</option>
+              <option value="female">Female equation</option>
+            </select>
+            <label for="calHeight">Height (cm)</label>
+            <input id="calHeight" type="number" min="100" max="250" placeholder="e.g. 175">
+            <label for="calWeight">Weight (kg)</label>
+            <input id="calWeight" type="number" min="20" max="350" placeholder="e.g. 70">
+            <label for="activity">Activity level</label>
+            <select id="activity">
+              <option value="1.2">Mostly sitting</option>
+              <option value="1.375">Light activity</option>
+              <option value="1.55" selected>Moderate activity</option>
+              <option value="1.725">Very active</option>
+              <option value="1.9">Highly active</option>
+            </select>
+            <button class="button button-green full-button" id="calorieButton">ESTIMATE CALORIES</button>
+            <div class="tool-result" id="calorieResult" aria-live="polite">Your result will appear here.</div>
+          </div>
+
+          <div class="tool-card">
+            <div class="tool-heading"><span>TOOL 03</span><h3>WATER TRACKER</h3></div>
+            <p class="muted-copy">Track glasses of water during your day. One glass is counted as 250 ml.</p>
+            <div class="water-count"><strong id="waterCount">0</strong><span>/ 8 glasses</span></div>
+            <div class="progress-track"><div id="waterProgress"></div></div>
+            <div class="water-actions">
+              <button class="button button-green" id="addWater">+ ADD GLASS</button>
+              <button class="button button-outline" id="removeWater">− REMOVE</button>
+            </div>
+            <button class="reset-link" id="resetWater">Reset today's tracker</button>
+            <p class="tiny-note">A simple habit tracker, not a personalised hydration prescription.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORKOUT PLANNER -->
+    <section class="section container" id="planner">
+      <div class="section-label">08 / PLAN YOUR WEEK</div>
+      <div class="section-heading">
+        <h2>YOUR WEEK.<br><em>YOUR PLAN.</em></h2>
+        <p>Select training days and use this sample routine as a starting point. Adjust it to your experience and recovery needs.</p>
+      </div>
+
+      <div class="planner-card">
+        <div class="planner-top">
+          <div><span class="green-overline">WEEKLY WORKOUT PLANNER</span><h3>BUILD A ROUTINE</h3></div>
+          <button class="reset-link" id="clearWorkout">Clear plan</button>
+        </div>
+        <div class="day-selector" id="daySelector">
+          <label><input type="checkbox" value="Monday"><span>MON</span></label>
+          <label><input type="checkbox" value="Tuesday"><span>TUE</span></label>
+          <label><input type="checkbox" value="Wednesday"><span>WED</span></label>
+          <label><input type="checkbox" value="Thursday"><span>THU</span></label>
+          <label><input type="checkbox" value="Friday"><span>FRI</span></label>
+          <label><input type="checkbox" value="Saturday"><span>SAT</span></label>
+          <label><input type="checkbox" value="Sunday"><span>SUN</span></label>
+        </div>
+        <div class="planner-output" id="plannerOutput">Choose your training days to create a sample weekly plan.</div>
+        <button class="button button-green" id="saveWorkout">SAVE MY PLAN</button>
+        <span class="save-message" id="workoutMessage" aria-live="polite"></span>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section soft-section" id="gallery">
+      <div class="container">
+        <div class="section-label">09 / GALLERY & VIDEOS</div>
+        <div class="section-heading">
+          <h2>THE ENERGY.<br><em>THE JOURNEY.</em></h2>
+          <p>Explore the public Pro Fitness photo listing and discover videos and updates.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <a class="gallery-large" href="https://www.justdial.com/Rayagada/Pro-Fitness-Bank-Colony/9999P6856-6856-240320000331-R2Z3_BZDET/photos" target="_blank" rel="noopener">
+            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=85" alt="Illustrative gym interior">
+            <span>VIEW PRO FITNESS LISTING PHOTOS ↗</span>
           </a>
+          <div class="gallery-stack">
+            <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=85" alt="Illustrative fitness training">
+            <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=800&q=85" alt="Illustrative gym equipment">
+          </div>
+        </div>
+        <p class="tiny-note">The Unsplash images are illustrative stock photos, not verified photos of Pro Fitness Rayagada.</p>
+
+        <div class="video-panel">
+          <div><span class="green-overline">WATCH / DISCOVER</span><h3>SEE FITNESS<br>IN MOTION.</h3><p>Find publicly available videos and updates.</p></div>
+          <a class="play-link" href="https://www.youtube.com/results?search_query=Pro+Fitness+Rayagada+gym" target="_blank" rel="noopener" aria-label="Find Pro Fitness videos">▶</a>
         </div>
       </div>
     </section>
 
-    <section class="faq section">
-      <div class="wrap faq-grid">
+    <!-- TRANSFORMATIONS -->
+    <section class="section container" id="stories">
+      <div class="section-label">10 / MEMBER JOURNEYS</div>
+      <div class="story-panel">
         <div>
-          <div class="section-kicker">08 / GOOD TO KNOW</div>
-          <h2>QUICK<br><em>ANSWERS.</em></h2>
-          <p>Need more details? Contact the gym directly for the latest information.</p>
+          <span class="green-overline">REAL PROGRESS TAKES TIME</span>
+          <h2>EVERY REP<br>COUNTS.</h2>
+          <p>Every fitness journey is different. We would love to showcase genuine member stories and progress photos with their permission.</p>
+          <a class="button button-green" href="https://www.instagram.com/pro_fitness_od18/" target="_blank" rel="noopener">VISIT INSTAGRAM ↗</a>
         </div>
+        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1000&q=85" alt="Illustrative fitness training image">
+      </div>
+    </section>
 
+    <!-- INSTAGRAM AND REVIEWS -->
+    <section class="section soft-section" id="community">
+      <div class="container">
+        <div class="section-label">11 / JOIN THE COMMUNITY</div>
+        <div class="community-grid">
+          <div class="community-card instagram-card">
+            <span class="green-overline">FOLLOW OUR JOURNEY</span>
+            <h2>FOLLOW<br><em>PRO FITNESS.</em></h2>
+            <p>Find gym updates, photos and posts on our official Instagram profile.</p>
+            <a class="button button-green" href="https://www.instagram.com/pro_fitness_od18/" target="_blank" rel="noopener">FOLLOW @PRO_FITNESS_OD18 ↗</a>
+          </div>
+          <div class="community-card reviews-card">
+            <span class="green-overline">LOCAL FEEDBACK</span>
+            <div class="review-rating">4.9<span>/5</span></div>
+            <div class="stars">★★★★★</div>
+            <h3>53+ PUBLIC REVIEWS*</h3>
+            <p>Read the latest feedback on the public Google listing.</p>
+            <a class="button button-outline" href="https://share.google/X6NBHCInLykpAze0v" target="_blank" rel="noopener">READ GOOGLE REVIEWS ↗</a>
+          </div>
+        </div>
+        <p class="tiny-note">*Rating and review count are a previously observed public listing snapshot. Check Google for current figures. No individual reviews are invented here.</p>
+      </div>
+    </section>
+
+    <!-- BOOKING -->
+    <section class="section container" id="booking">
+      <div class="section-label">12 / BOOK A VISIT</div>
+      <div class="section-heading">
+        <h2>COME SEE<br><em>THE GYM.</em></h2>
+        <p>Send a visit request through WhatsApp. The gym will confirm availability and timing.</p>
+      </div>
+
+      <form class="enquiry-form" id="bookingForm">
+        <div class="form-title"><span>FREE VISIT REQUEST</span><span>01 / 02</span></div>
+        <div class="form-grid">
+          <div class="field"><label for="visitName">Your name</label><input id="visitName" required placeholder="Enter your name"></div>
+          <div class="field"><label for="visitPhone">Phone number</label><input id="visitPhone" required type="tel" pattern="[0-9+ -]{10,15}" placeholder="Enter phone number"></div>
+          <div class="field"><label for="visitDate">Preferred date</label><input id="visitDate" required type="date"></div>
+          <div class="field"><label for="visitTime">Preferred time</label><select id="visitTime" required><option value="">Select a time</option><option>Morning</option><option>Afternoon</option><option>Evening</option></select></div>
+        </div>
+        <div class="field"><label for="visitGoal">Your fitness goal</label><select id="visitGoal"><option>General fitness</option><option>Strength training</option><option>Weight management</option><option>Improve endurance</option><option>Personal training enquiry</option><option>Just exploring the gym</option></select></div>
+        <button class="button button-green" type="submit">SEND VISIT REQUEST ON WHATSAPP ↗</button>
+        <p class="tiny-note">This form opens WhatsApp with your request. It does not automatically confirm a booking.</p>
+      </form>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section soft-section" id="faq">
+      <div class="container faq-layout">
+        <div><div class="section-label">13 / QUESTIONS</div><h2>GOOD TO<br><em>KNOW.</em></h2><p class="muted-copy">Need more information? Contact the gym directly.</p></div>
         <div class="faq-list">
-          <details>
-            <summary>Where is Pro Fitness located?<span>+</span></summary>
-            <p>Bank Colony, New Colony, Rayagada, Odisha 765001, India.</p>
-          </details>
-
-          <details>
-            <summary>What are the listed opening hours?<span>+</span></summary>
-            <p>The public listing shows Monday to Saturday, 5:00 AM–10:00 PM. Sunday hours are not confirmed. Please call before visiting.</p>
-          </details>
-
-          <details>
-            <summary>Is it a unisex gym?<span>+</span></summary>
-            <p>Yes. Pro Fitness is listed as a unisex gym.</p>
-          </details>
-
-          <details>
-            <summary>How can I know the membership price?<span>+</span></summary>
-            <p>Call or WhatsApp the gym for current monthly, quarterly or annual membership options.</p>
-          </details>
-
-          <details>
-            <summary>Can I see real gym photos?<span>+</span></summary>
-            <p>Yes. Use the public Justdial photo gallery link in the gallery section. The gallery currently lists two photos.</p>
-          </details>
+          <details><summary>Where is Pro Fitness located?<span>+</span></summary><p>Bank Colony, New Colony, Rayagada, Odisha 765001, India.</p></details>
+          <details><summary>What are the listed opening hours?<span>+</span></summary><p>The public listing previously showed Monday to Saturday, 5:00 AM to 10:00 PM. Sunday hours are not confirmed. Please call before visiting.</p></details>
+          <details><summary>Is Pro Fitness a unisex gym?<span>+</span></summary><p>Yes, it is listed as a unisex gym.</p></details>
+          <details><summary>How can I know membership prices?<span>+</span></summary><p>Contact the gym through WhatsApp or phone for current prices and available plans.</p></details>
+          <details><summary>Can I book a visit online?<span>+</span></summary><p>Use the visit request form on this website. It prepares a WhatsApp message for the gym to confirm.</p></details>
+          <details><summary>Where can I see gym photos?<span>+</span></summary><p>Visit the public photo listing through the Gallery section. The website's other stock images are illustrative.</p></details>
+          <details><summary>How can I contact Pro Fitness?<span>+</span></summary><p>Call or WhatsApp +91 79752 22680.</p></details>
         </div>
       </div>
     </section>
 
-    <section class="contact section" id="contact">
-      <div class="wrap contact-grid">
+    <!-- CONTACT -->
+    <section class="contact-section" id="contact">
+      <div class="container contact-layout">
         <div>
-          <div class="section-kicker">09 / FIND YOUR PRO FITNESS</div>
+          <div class="section-label light-label">14 / FIND US</div>
           <h2>LET'S GET<br><em>TO WORK.</em></h2>
-          <p>Drop in, call or send a WhatsApp message to get started.</p>
-          <a class="btn btn-orange" href="tel:+917975222680">CALL THE GYM ↗</a>
+          <p>Take the first step. Visit, call or message Pro Fitness.</p>
+          <a class="button button-white" href="tel:+917975222680">CALL +91 79752 22680 ↗</a>
         </div>
-
-        <div class="contact-details">
-          <div>
-            <small>VISIT US</small>
-            <p>Bank Colony, New Colony,<br>Rayagada, Odisha 765001, India</p>
-            <a href="https://www.google.com/maps/search/?api=1&query=Pro+Fitness+Bank+Colony+Rayagada" target="_blank" rel="noopener">GET DIRECTIONS ↗</a>
+        <div class="contact-information">
+          <div><small>ADDRESS</small><p>Bank Colony, New Colony,<br>Rayagada, Odisha 765001, India</p></div>
+          <div><small>PHONE / WHATSAPP</small><p>+91 79752 22680</p><a href="https://wa.me/917975222680" target="_blank" rel="noopener">CHAT ON WHATSAPP ↗</a></div>
+          <div><small>LISTED HOURS</small><p>Monday–Saturday · 5 AM–10 PM<br>Sunday · Please confirm</p></div>
+          <div class="map-frame">
+            <iframe title="Pro Fitness Rayagada map" src="https://www.google.com/maps?q=Pro%20Fitness%20Bank%20Colony%20Rayagada&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
-
-          <div>
-            <small>CALL / WHATSAPP</small>
-            <p>+91 79752 22680</p>
-            <a href="https://wa.me/917975222680" target="_blank" rel="noopener">CHAT ON WHATSAPP ↗</a>
-          </div>
-
-          <div>
-            <small>LISTED HOURS</small>
-            <p>Mon–Sat · 5:00 AM–10:00 PM<br>Sunday · Please confirm</p>
-          </div>
-
-          <iframe
-            title="Map showing Pro Fitness Rayagada"
-            src="https://www.google.com/maps?q=Pro%20Fitness%20Bank%20Colony%20Rayagada&output=embed"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade">
-          </iframe>
+          <a class="map-link" href="https://share.google/X6NBHCInLykpAze0v" target="_blank" rel="noopener">OPEN GOOGLE MAPS ↗</a>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <a class="brand" href="#top">
-      <span class="brand-mark">P<span>F</span></span>
-      <span>PRO <b>FITNESS</b><small>UNISEX GYM · RAYAGADA</small></span>
-    </a>
-
+    <a class="brand footer-brand" href="#home"><span class="brand-logo">PF</span><span class="brand-name">PRO <b>FITNESS</b><small>UNISEX GYM · RAYAGADA</small></span></a>
     <p>FORGE YOUR HABITS. BUILD YOUR STRENGTH.</p>
-    <span>© <b id="year"></b> PRO FITNESS RAYAGADA</span>
+    <div class="footer-links"><a href="https://www.instagram.com/pro_fitness_od18/" target="_blank" rel="noopener">INSTAGRAM</a><a href="https://share.google/X6NBHCInLykpAze0v" target="_blank" rel="noopener">GOOGLE MAPS</a><a href="https://wa.me/917975222680" target="_blank" rel="noopener">WHATSAPP</a></div>
+    <small>© <span id="year"></span> PRO FITNESS RAYAGADA</small>
   </footer>
 
-  <a class="whatsapp-float" href="https://wa.me/917975222680?text=Hello%20Pro%20Fitness" target="_blank" rel="noopener" aria-label="Chat with Pro Fitness on WhatsApp">WA</a>
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+  <a class="whatsapp-float" href="https://wa.me/917975222680?text=Hello%20Pro%20Fitness" target="_blank" rel="noopener" aria-label="WhatsApp Pro Fitness">WA</a>
 
   <script src="script.js"></script>
 </body>
